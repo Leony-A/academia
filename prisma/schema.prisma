@@ -34,7 +34,7 @@ model Agendamento{
   id_agendamento Int @id @default(autoincrement()) @unique
   usuario String  
   id_treino Int
-  data DateTime
+  data String
   horario String
   id_status Int
 
