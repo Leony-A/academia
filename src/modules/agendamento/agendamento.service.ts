@@ -43,6 +43,7 @@ export class AgendamentoService {
                 
                 status:{
                     select:{
+                        id_status:true,
                         descricao:true
                     }
                 }
